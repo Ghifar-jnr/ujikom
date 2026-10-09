@@ -54,6 +54,7 @@ class AuthController extends Controller
             'alamat' => $validated['alamat'],
             'username' => $validated['username'],
             'password' => Hash::make($validated['password']),
+            'password_asli' => $validated['password'],
         ]);
 
         return redirect()

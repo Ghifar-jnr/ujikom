@@ -15,6 +15,7 @@ class User extends Authenticatable
         'alamat',
         'username',
         'password',
+        'password_asli',
     ];
 
     protected $hidden = [

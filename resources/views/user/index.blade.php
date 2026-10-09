@@ -32,7 +32,7 @@
                                 {{ $loop->iteration }}
                             </td>
                             <td>{{ $user->username ?? '-' }}</td>
-                            <td>{{ $user->password ?? 'Password tidak tersedia' }}</td>
+                            <td>{{ $user->password_asli ?? 'Belum tersedia' }}</td>
                         </tr>
                     @empty
                         <tr>
