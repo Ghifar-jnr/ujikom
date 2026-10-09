@@ -225,7 +225,7 @@
         <header class="topbar">
             <div>
                 <h5 class="mb-1">@yield('page-heading', 'Welcome')</h5>
-                <small class="text-muted">Ujikom Reimbursement</small>
+                <small class="text-muted">Pengelolaan Reimbursement</small>
             </div>
 
             <div class="text-end">
